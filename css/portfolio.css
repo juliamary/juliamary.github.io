@@ -112,7 +112,7 @@ hr {
 
 .brand-name {
     margin: 0;
-    font-size: 4em;
+    font-size: 6em;
 }
 
 .tagline-divider {
@@ -156,9 +156,35 @@ hr {
     margin: 0 auto 0;
 }
 
+/*.logros > div.container > div.row > .box > a {
+   color:white;
+}
+
+.logros > div.container > div.row > .box > a :hover,
+.logros > div.container > div.row > .box > a :focus{
+    color: white;
+}
+
+.logros > div.container > div.row > .box > a > i{
+    box-shadow: 0px 0px 30px white;
+    border-radius: 50px;
+    padding: 11px;
+
+}
+
+.logros > div.container > div.row >.box > a > i :hover,
+.logros > div.container > div.row >.box > a > i :focus{
+    color:white;
+} */
+
+.logros > div.container > div.row > div.box > div.box-black > h2{
+    font-size: 50px;
+} 
+
+
 footer {
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.28);
 }
 
 footer p {
@@ -244,6 +270,14 @@ footer p {
 
     @media screen and (min-width:1200px) {
     .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+    @media screen and (min-width:1200px) {
+    .box-black:after {
         content: '';
         display: table;
         clear: both;
