@@ -35,10 +35,16 @@ hr {
     border-color: #999999;
 }
 
+/*emboltura*/
+.wrapper{
+    padding: 16%;;
+}
+
 .titulo,/*marca*/
 .autor {
   /*  display: none;*/
     text-align: center;
+
 }
 
 .titulo > a {
@@ -84,8 +90,15 @@ hr {
         color: #EB9933;
     }
 
+.img-styles{
+    border-radius: 55%;
+    border: 1px solid;
+    padding: 6px;
+}
+
 .img-full {
     min-width: 100%;
+
 }
 
 .brand-before,
@@ -110,10 +123,19 @@ hr {
 
 .box {
     margin-bottom: 20px;
-    padding: 30px 15px;
+    padding: 40px 25px;
     background: #fff;
     background: rgba(255, 255, 255, 0.28);
     border: 1px solid white;
+}
+
+.box-black{
+    margin-top: 29px;
+    margin-bottom: 10px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(8, 8, 8, 0.72);
+    border: 2px solid #060606;
 }
 
 .intro-text {
@@ -190,6 +212,7 @@ footer p {
 
     .navbar {
         min-height: 0;
+        margin-bottom: 66px;
     }
 
     .navbar-default {
